@@ -1,0 +1,55 @@
+Arguments: 
+  C:\my\E\nodeJS\node.exe C:\my\E\nodeJS\node_global\node_modules\yarn\bin\yarn.js install --production --ignore-optional --silent
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\my\E\jdk\jdk11.0.14\bin;C:\my\E\jdk\jdk11.0.14\jre\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;F:\DevelopmentSoftware\VMware\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\my\E\erl9.2\bin;C:\my\E\apache-maven-3.9.1\bin;C:\my\E\apache-tomcat-9.0.74\bin;C:\my\E\nodeJS;C:\my\E\nodeJS\node_global\node_modules;C:\my\E\nodeJS\;C:\ProgramData\chocolatey\bin;C:\tools\gsudo\Current;C:\my\E\hadoop-3.1.0\bin;C:\my\E\go\go1.20.3\bin;C:\my\E\mysql-8.0.33-winx64\bin;C:\my\E\ffmpeg\Screen Capturer Recorder\configuration_setup_utility\vendor\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Bandizip\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\my\E\Tesseract-OCR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\my\E\neo4j-community-4.4.28-windows\neo4j-community-4.4.28\bin;C:\my\E\hadoop-3.1.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\my\E\erl9.2\bin;C:\my\E\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:\my\E\android-sdk_r24.4.1-windows\android-sdk-windows\tools;C:\my\E\MondoDB\bin;C:\my\E\python\python3.10.6\Scripts\;C:\my\E\python\python3.10.6\;C:\Users\24026\AppData\Local\Microsoft\WindowsApps;C:\Users\24026\AppData\Local\JetBrains\Toolbox\scripts;F:\DevelopmentSoftware\Microsoft VS Code\bin;C:\Users\24026\AppData\Roaming\npm;C:\my\E\nodeJS\node_global;C:\Users\24026\go\bin;C:\my\E\MiKTeX\miktex\bin\x64\;C:\my\E\Fiddler
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1540:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:959:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "name": "hexo-site",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    },
+    "hexo": {
+      "version": ""
+    },
+    "dependencies": {
+      "hexo": "^7.0.0",
+      "hexo-generator-archive": "^2.0.0",
+      "hexo-generator-category": "^2.0.0",
+      "hexo-generator-index": "^3.0.0",
+      "hexo-generator-tag": "^2.0.0",
+      "hexo-renderer-ejs": "^2.0.0",
+      "hexo-renderer-marked": "^6.0.0",
+      "hexo-renderer-stylus": "^3.0.0",
+      "hexo-server": "^3.0.0",
+      "hexo-theme-landscape": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
